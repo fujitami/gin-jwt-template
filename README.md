@@ -17,3 +17,11 @@ docker-compose up
 # デーモン起動の場合には-dオプション付きで
 docker-compose up -d
 ```
+
+## アーキテクチャ
+```
+Clean Architectureを試験採用
+
+参考はこちら
+http://psychedelicnekopunch.com/archives/1308
+```

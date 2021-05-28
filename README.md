@@ -26,3 +26,10 @@ Clean Architectureを試験採用
 http://psychedelicnekopunch.com/archives/1308
 https://qiita.com/hirotakan/items/698c1f5773a3cca6193e
 ```
+## 認証
+```
+JWT認証を採用
+
+参考はこちら
+https://qiita.com/yoheimuta/items/b17bfbac17c02d410f54
+```

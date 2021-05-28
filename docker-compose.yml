@@ -1,5 +1,17 @@
 version: '3'
 services:
+  db:
+    image: mysql@sha256:68b207d01891915410db3b5bc1f69963e3dc8f23813fd01e61e6d7e7e3a46680
+    volumes:
+      - ./docker/db/my.cnf:/etc/mysql/conf.d/my.cnf
+      - ./docker/db/data:/var/lib/mysql
+    environment:
+      MYSQL_DATABASE: template
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: password
+    ports:
+      - "3307:3306"
   web:
     build:
       context: .

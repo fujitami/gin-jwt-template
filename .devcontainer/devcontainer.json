@@ -1,0 +1,16 @@
+{
+	"name": "go",
+	"dockerComposeFile": [
+		"../docker-compose.yml"
+	],
+	"service": "web",
+	"workspaceFolder": "/go/src/gin-jwt-template",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/ash",
+    "go.gopath": "/go"
+  },
+	"extensions": [
+    "ms-vscode.go",
+  ],
+  "shutdownAction": "stopCompose"
+}
